@@ -1,0 +1,178 @@
+﻿<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>єДокумент</title>
+    <meta name="theme-color" content="#edf1f6" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="єДокумент" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+    <link rel="stylesheet" href="./styles.css?v=33" />
+  </head>
+  <body>
+    <main class="phone-screen" aria-label="Profile card mockup">
+      <section class="card-stage">
+        <div class="carousel" id="carousel" aria-label="Cards carousel">
+          <div class="card-track" id="cardTrack">
+            <article class="document-card content-card is-active ticker-visible" data-card="0">
+              <div class="top-text" id="topText">Ваш текст тут</div>
+
+              <section class="identity-row">
+                <div class="photo-button" aria-label="Profile photo">
+                  <img id="profilePhoto" src="./assets/profile.jpg" alt="" />
+                </div>
+
+                <div class="data-block">
+                  <p>
+                    <span>Дата</span>
+                    <span>народження:</span>
+                    <strong id="birthDate">15.05.2011</strong>
+                  </p>
+                  <p>
+                    <span>РНОКПП:</span>
+                    <strong id="profileId">4006214373</strong>
+                  </p>
+                </div>
+              </section>
+
+              <div class="ticker" aria-hidden="true">
+                <div class="ticker-track">
+                  <span>Документ діє під час воєнного стану. Ой, у лузі червона калина похилилася, чогось наша славна Україна зажурилася. А ми тую червону калину підіймемо, а ми нашу славну Україну, гей, гей, розвеселимо.</span>
+                  <span>Документ діє під час воєнного стану. Ой, у лузі червона калина похилилася, чогось наша славна Україна зажурилася. А ми тую червону калину підіймемо, а ми нашу славну Україну, гей, гей, розвеселимо.</span>
+                </div>
+              </div>
+
+              <section class="name-area" aria-label="Name area">
+                <div class="name-lines" id="nameLines">
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                  <span>&nbsp;</span>
+                </div>
+                <button class="more-button" type="button" aria-label="More">
+                  <span></span><span></span><span></span>
+                </button>
+              </section>
+            </article>
+
+            <article class="document-card tax-card is-next" data-card="1" aria-label="Tax card demo">
+              <section class="tax-content">
+                <h2>Картка платника<br />податків</h2>
+                <p class="tax-type">РНОКПП</p>
+                <p class="tax-name">
+                  <span>Голубєв</span>
+                  <span>Михайло</span>
+                  <span>Олексійович</span>
+                </p>
+                <p class="tax-date">
+                  <span>Дата народження:</span>
+                  <strong>15.05.2011</strong>
+                </p>
+              </section>
+              <div class="ticker" aria-hidden="true">
+                <div class="ticker-track">
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                </div>
+              </div>
+              <section class="tax-number-row" aria-label="Demo tax number">
+                <div class="tax-number">4008426713</div>
+                <span class="copy-mark" aria-hidden="true"></span>
+                <button class="more-button" type="button" aria-label="More">
+                  <span></span><span></span><span></span>
+                </button>
+              </section>
+            </article>
+            <article class="document-card person-card" data-card="2" aria-label="Profile card demo">
+              <h2 class="person-title">Паспорт громадянина України</h2>
+              <section class="person-main">
+                <div class="person-photo">
+                  <img src="./assets/profile.jpg" alt="" />
+                </div>
+                <div class="person-info">
+                  <p>
+                    <span>Дата</span>
+                    <span>народження:</span>
+                    <strong>15.05.2011</strong>
+                  </p>
+                  <p>
+                    <span>Номер:</span>
+                    <strong>010573529</strong>
+                  </p>
+                  <div class="signature-slot" aria-label="Signature image placeholder">
+                    <img src="./assets/signature.png" alt="" onerror="this.style.display='none'" />
+                  </div>
+                </div>
+              </section>
+              <div class="ticker" aria-hidden="true">
+                <div class="ticker-track">
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                </div>
+              </div>
+              <section class="person-name-area" aria-label="Name area">
+                <div class="name-lines">
+                  <span>Голубєв</span>
+                  <span>Михайло</span>
+                  <span>Олексійович</span>
+                </div>
+                <button class="more-button" type="button" aria-label="More">
+                  <span></span><span></span><span></span>
+                </button>
+              </section>
+            </article>
+            <article class="document-card empty-card" data-card="3" aria-label="Empty card">
+              <div class="ticker" aria-hidden="true">
+                <div class="ticker-track">
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                </div>
+              </div>
+            </article>
+            <article class="document-card empty-card" data-card="4" aria-label="Empty card">
+              <div class="ticker" aria-hidden="true">
+                <div class="ticker-track">
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                  <span>Документ оновлено о 15:36 | 06.06.2026 • Перевірено Державною податковою службою •</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="pagination" id="pagination" aria-hidden="true">
+          <span class="active"></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <nav class="bottom-tabs" aria-label="Demo navigation">
+        <button type="button">
+          <img class="tab-icon" src="./assets/tab-feed.png" alt="" />
+          <span>Стрічка</span>
+        </button>
+        <button type="button">
+          <img class="tab-icon" src="./assets/tab-documents.png" alt="" />
+          <span>Документи</span>
+        </button>
+        <button type="button">
+          <img class="tab-icon" src="./assets/tab-services.png" alt="" />
+          <span>Сервіси</span>
+        </button>
+        <button type="button">
+          <img class="tab-icon" src="./assets/tab-menu.png" alt="" />
+          <span>Меню</span>
+        </button>
+      </nav>
+    </main>
+
+    <script src="./app.js?v=33"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("./sw.js");
+      }
+    </script>
+  </body>
+</html>
